@@ -40,38 +40,25 @@ namespace DesignLibrary_Tutorial.Fragments
 
         private void SetUpRecyclerView(RecyclerView recyclerView)
         {
-            List<Field> fields = db.SelectTableField();
+            List<Field> Fields = db.SelectTableField();
             List<string> itm = new List<string>();
-            for(int i = 0; i < fields.Count; i++)
+            for(int i = 0; i < Fields.Count; i++)
             {
-                itm.Add(fields[i].name);
+                itm.Add(Fields[i].name);
             }
-            //var values = GetRandomSubList(Cheeses.CheeseStrings, 30);
-            var values = GetRandomSubList(itm, itm.Count);
             recyclerView.SetLayoutManager(new LinearLayoutManager(recyclerView.Context));
-            recyclerView.SetAdapter(new SimpleStringRecyclerViewAdapter(recyclerView.Context, values, Activity.Resources));
+            recyclerView.SetAdapter(new SimpleStringRecyclerViewAdapter(recyclerView.Context, itm, Activity.Resources));
 
             recyclerView.SetItemClickListener((rv, position, view) =>
             {
                 //An item has been clicked
                 Context context = view.Context;
                 Intent intent = new Intent(context, typeof(CheeseDetailActivity));
-                intent.PutExtra(CheeseDetailActivity.EXTRA_NAME, values[position]);
+                intent.PutExtra(CheeseDetailActivity.EXTRA_NAME, itm[position]);
+                intent.PutExtra("Position", Fields[position].id.ToString());
 
                 context.StartActivity(intent);
             });
-        }
-
-        private List<string> GetRandomSubList (List<string> items, int amount)
-        {
-            List<string> list = new List<string>();
-            Random random = new Random();
-            while (list.Count < amount)
-            {
-                list.Add(items[random.Next(items.Count)]);
-            }
-
-            return list;
         }
 
         public class SimpleStringRecyclerViewAdapter : RecyclerView.Adapter

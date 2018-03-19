@@ -129,8 +129,8 @@ namespace DesignLibrary_Tutorial
         private void SetUpViewPager(ViewPager viewPager)
         {
             TabAdapter adapter = new TabAdapter(SupportFragmentManager);
-            adapter.AddFragment(new Fragment1(), "Fragment 1");
-            adapter.AddFragment(new Fragment2(), "Fragment 2");
+            adapter.AddFragment(new Fragment1(), "Поля");
+            adapter.AddFragment(new Fragment2(), "Карта");
 
             viewPager.Adapter = adapter;
         }

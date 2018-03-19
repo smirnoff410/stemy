@@ -21,17 +21,7 @@ namespace DesignLibrary_Tutorial.Fragments
         {
             View view = inflater.Inflate(Resource.Layout.Fragment2, container, false);
 
-            Button btnLogin = view.FindViewById<Button>(Resource.Id.btnLogin);
-            TextInputLayout passwordWrapper = view.FindViewById<TextInputLayout>(Resource.Id.txtInputLayoutPassword);
-            string txtPassword = passwordWrapper.EditText.Text;
-
-            btnLogin.Click += (o, e) =>
-            {
-                if (txtPassword != "1234")
-                {
-                    passwordWrapper.Error = "Wrong password, try again";
-                }
-            };
+            
 
             return view;
         }

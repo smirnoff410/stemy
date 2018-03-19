@@ -159,7 +159,13 @@ C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Deb
 C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\res\drawable\logo_color_vertical.png
 C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\R.cs.flag
 C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\uploadflags.txt
+C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\res\drawable\field.png
+C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\res\layout\fieldinfocardview.xml
+C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\res\drawable\sunset.png
+C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\res\drawable\temperature.png
+C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\res\drawable\wind.png
+C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\res\drawable\cloud.png
+C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\res\drawable\country.png
+C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\res\drawable\sunrise.png
 C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\bin\Debug\DesignLibrary_Tutorial.dll.mdb
 C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\android\assets\DesignLibrary_Tutorial.dll.mdb
-C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\DesignLibrary_Tutorial.csprojResolveAssemblyReference.cache
-C:\Users\Vladislav\Desktop\DesignLibrary_Tutorial\DesignLibrary_Tutorial\obj\Debug\res\drawable\field.png
